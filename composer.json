@@ -1,0 +1,14 @@
+{
+    "name": "zouxudong/getui",
+    "description": "a test project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zxd",
+            "email": "214905904@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
