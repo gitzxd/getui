@@ -1,6 +1,7 @@
 {
     "name": "zouxudong/getui",
     "description": "a test project",
+    "keywords": ["laravel", "getui"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,5 +11,24 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "illuminate/support": ">= 5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "zouxudong\\Getui\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "zouxudong\\Getui\\GetuiServiceProvider"
+            ],
+            "aliases": {
+                "Getui": "zouxudong\\Getui\\Facades\\Getui"
+            }
+        }
+    }
+
+
 }
